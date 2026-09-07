@@ -1,0 +1,19 @@
+{
+  "name": "kaoyan-api-server",
+  "version": "1.0.0",
+  "description": "考研资料库后端API代理服务 - 保护API密钥，支持DeepSeek等AI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
